@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+@font-face{
+	font-family: "Open Sans";
+	src:url(../fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+
+:root{
+	--color-hover-menu:#FE8F01;
+	--fondo-header:#3d3d3d;
+	--fondo-footer: #333333;
+	--letra-footer: #bababa;
+	--color-icono: #fe8f01;
+	--color-texto: #ffffff;
+	--fondo-tarjeta: #494949;
+}
+
+body{
+	font-size: 14px;
+	color: #666;
+	font-family: "Open Sans";
+}
+
+header{
+	background-color: var(--fondo-header);
+	padding: 10px 0;
+	font-family: "Open Sans";
+}
+
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--letra-footer);
+	padding: 15px 0;
+	text-align: center;
+	font-family: "Open Sans";
+}
+
+#about{
+	text-align: center;
+	color: #000;
+}
+
+.app-carousel {
+    padding: 0 6%;
+}
+.app-carousel .center .single-shot {
+    opacity: 1;
+    transform: scale(1);
+}
+.app-carousel .single-shot {
+    opacity: 0.8;
+    transform: scale(0.8);
+}
+
+.app-carousel .owl-dots {
+    text-align: center;
+}
+.app-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.app-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
+
+#hero-slides{
+	background-color: var(--letra-footer);
+}
+
+#about{
+	background-color: var(--letra-footer);
+	margin-top: 60px;
+}
+
+#about .tarjeta{
+	padding-top: 100px;
+	color: var(--color-texto);
+	background-color: var(--fondo-tarjeta);
+	padding: 40px;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 60px;
+}
+
+#about .tarjeta h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+#about .tarjeta p{
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+#about .tarjeta i{
+	color: var(--color-icono);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+
+#counter{
+	background-color: #000;
+}
+
+
+#counter .tarjeta{
+	color: var(--color-texto);
+	background-color: #000;
+	padding: 40px;
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#counter .tarjeta h4{
+	font-weight: 600;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+#counter .tarjeta h6{
+	color: var(--color-icono);
+	margin-bottom: 30px;
+	font-size: 13px;
+}
+
+#counter .tarjeta p{
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 20px;
+}
+
+#counter .tarjeta i{
+	color: var(--color-texto);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+
+

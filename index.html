@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Wooden</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="" rel="shortcut icon">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/owl.carousel.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+	
+</head>
+<body>
+	
+	<header>
+	
+		<div class="container">
+		
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<a href="index.html" class="navbar-brand d-block text-center">
+					<i class="las la-compass"></i> Wooden
+				</a>
+				
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+				data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" 
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item active">
+                    		<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Services</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		
+		</div>
+	
+	</header>
+
+	
+	<section id="hero-slides">
+	<div class="row mt-5 owl-carousel">
+
+		<div>
+		<article>
+			<img src="img/slide-2.jpg" alt="imagen 3">
+		</article>
+		</div>
+		
+		<div>
+		<article>
+			<img src="img/slide-3.jpg" alt="imagen 2">
+		</article>
+		</div>
+	
+		<div>
+		<article>
+			<img src="img/slide-1.jpg" alt="imagen 1">
+		</article>
+		</div>
+	
+	</div>
+	</section>
+	
+	
+	
+	
+	
+	<section id="about">
+		<div>
+			<h1>ABOUT US</h1>
+		</div>
+		
+	  <div class="row mx-5">
+		<article class="col-lg-4 col-sm-6 col-sm-12">
+			<div class="tarjeta">
+				<i class="fa-regular fa-calendar"></i>
+				<h3>EXPERT DESIGNERS</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo possimus placeat odio adipisci asperiores molestiae blanditiis, rem tenetur?</p>
+			</div>
+		</article>
+		
+		
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			  <div class="tarjeta">
+			  <i class="fa-solid fa-money-bill"></i>
+				<h3>AFFORDABLE PRICES</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere vitae a, quos, ratione sit alias? Necessitatibus, quam, reiciendis?<p>
+			  </div>
+		</article>
+	
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			  <div class="tarjeta">
+			  <i class="fa-brands fa-creative-commons-nd"></i>
+			    <h3>24*7 WORKS</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio incidunt atque quae, possimus maxime id nulla harum nihil!<p>
+			  </div>				
+		</article>			
+	  </div>
+	</section>	
+			
+			
+			
+	<section id="counter">
+		<div class="row mx-5">
+			
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			<div class="tarjeta">
+				<i class="fa-regular fa-face-smile"></i>
+				<h3>45</h3>
+				<h6>Happy clients</h6>
+			</div>
+		</article>
+			
+			
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			<div class="tarjeta">
+				<i class="fa-brands fa-instagram"></i>
+				<h3>165</h3>
+				<h6>Instagram</h6>
+			</div>
+		</article>	
+			
+			
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			<div class="tarjeta">
+				<i class="fa-solid fa-pen-nib"></i>
+				<h3>563</h3>
+				<h6>Completed Works</h6>
+			</div>
+		</article>
+			
+		<article class="col-lg-3 col-sm-6 col-sm-12">
+			<div class="tarjeta">
+				<i class="fa-solid fa-pen-nib"></i>
+				<h3>245</h3>
+				<h6>Awards Won</h6>
+			</div>
+		</article>	
+			
+			
+			</div>			
+		</section>
+
+	<footer>
+		<div class="container">
+			<p>&copy; 2024 - Prueba Segundo Parcial - Nicole Alejandra Chávez Martínez</p>
+		</div>
+	</footer>
+
+	<!-- js -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			
+			$(".owl-carousel").owlCarousel({
+                items: 1,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 800,
+                margin: 30,
+                center: true,
+                dots: true,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    480: {
+                        items: 1
+                    },
+                    992: {
+                        items: 1
+                    }
+                }
+            });
+			
+			
+		});
+	</script>
+	
+	
+	
+</body>
+
+</html>
